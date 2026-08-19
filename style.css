@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0
+}
+body{
+    background: rgb(247, 221, 149);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 20px;
+}
+
+div{
+    background-color: white;
+    border: 1px solid black;
+    width: 40vw;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.13);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    margin-top: 30px;
+    width: 30%;
+}
+
+#celular-pequeno{
+    display: none;
+}
+
+#celular-medio{
+    display: none;
+}
+
+#tablet{
+    display: none;
+}
+
+#notebook{
+    display: none;
+}
+
+#desktop{
+    display: block;
+}
+#monitores-grandes{
+    display: none;
+}
+
+@media (max-width:480px){
+    #celular-pequeno{
+    display: block;
+}
+
+#celular-medio{
+    display: none;
+}
+
+#tablet{
+    display: none;
+}
+
+#notebook{
+    display: none;
+}
+
+#desktop{
+    display: none;
+}
+#monitores-grandes{
+    display: none;
+}
+body{
+    background-color: white;
+}
+}
+
+@media (min-width: 481px) and (max-width:768px){
+    #celular-pequeno{
+    display: none;
+}
+
+#celular-medio{
+    display: block;
+}
+
+#tablet{
+    display: none;
+}
+
+#notebook{
+    display: none;
+}
+
+#desktop{
+    display: none;
+}
+#monitores-grandes{
+    display: none;
+}
+
+body{
+    background-color: black;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    #celular-pequeno{
+    display: none;
+}
+
+#celular-medio{
+    display: none;
+}
+
+#tablet{
+    display: block;
+}
+
+#notebook{
+    display: none;
+}
+
+#desktop{
+    display: none;
+}
+#monitores-grandes{
+    display: none;
+}
+
+body{
+    background-color: blue;
+}
+}
+
+@media (min-width: 1025px) and (max-width: 1440px){
+    #celular-pequeno{
+    display: none;
+}
+
+#celular-medio{
+    display: none;
+}
+
+#tablet{
+    display: none;
+}
+
+#notebook{
+    display: block;
+}
+
+#desktop{
+    display: none;
+}
+#monitores-grandes{
+    display: none;
+}
+body{
+    background-color: violet;
+}
+}
+
+@media (min-width: 1921px){
+    #celular-pequeno{
+    display: none;
+}
+
+#celular-medio{
+    display: none;
+}
+
+#tablet{
+    display: none;
+}
+
+#notebook{
+    display: none;
+}
+
+#desktop{
+    display: block;
+}
+#monitores-grandes{
+    display: none;
+}
+body{
+    background-color: green;
+}
+}
